@@ -1,0 +1,588 @@
+{
+  "business": {
+    "name": "ATX Electrical Services",
+    "phone": "+15127399213",
+    "category": "electrical contractor",
+    "city": "Austin",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#3D2E1F",
+        "primaryDark": "#251A10",
+        "primaryLight": "#D4C5B0",
+        "secondary": "#5C4A3A",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Austin's Trusted Electricians",
+      "heroSubline": "Powering homes and businesses across Central Texas. Licensed, insured, and ready for any electrical challenge.",
+      "aboutTitle": "Decades of Electrical Expertise in Austin",
+      "aboutText": [
+        "ATX Electrical Services was founded over a decade ago by lifelong Austinite, Jake Miller. Frustrated with the unreliable and impersonal service offered by larger electrical companies, Jake set out to build a business focused on quality workmanship and genuine customer care.",
+        "Our approach is simple: treat every project, big or small, with the same level of professionalism and attention to detail. We believe in clear communication, transparent pricing, and doing the job right the first time. We use only the highest quality materials and employ experienced, licensed electricians.",
+        "We're proud to be a part of the Austin community and are committed to giving back. We regularly volunteer our services for local non-profits and support initiatives that promote sustainable energy solutions for our city."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Electrical emergencies don't wait for business hours. We're available around the clock to handle any urgent electrical issue."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No surprises or hidden fees. We provide detailed, transparent quotes before any work begins."
+        },
+        {
+          "title": "Licensed & Insured",
+          "description": "Protecting your home and family is our top priority. We are fully licensed and insured for your peace of mind."
+        },
+        {
+          "title": "Quality Workmanship",
+          "description": "We stand behind our work. Our experienced electricians deliver exceptional results that last."
+        }
+      ],
+      "ctaHeadline": "Get a Free Electrical Estimate",
+      "ctaSubline": "Contact us today to discuss your project and receive a no-obligation quote."
+    },
+    "services": [
+      {
+        "slug": "electrical-panel-upgrades",
+        "name": "Electrical Panel Upgrades",
+        "shortDescription": "Ensure your home's electrical system can handle modern demands.",
+        "description": "Is your electrical panel outdated, undersized, or showing signs of wear? Upgrading your electrical panel is crucial for safety and to accommodate the increasing electrical demands of modern homes in Austin. From older bungalows in Zilker to the new builds popping up in Mueller, homes are drawing more power than ever before. We'll assess your current panel, determine the appropriate size upgrade, and install a new, code-compliant panel that meets your needs. This includes managing necessary permits and inspections to ensure everything is up to standard. Don't risk overloading your system; upgrade to a panel that can handle the Texas heat and your family's energy consumption.",
+        "process": [
+          "Step 1: Comprehensive Assessment of your current electrical panel and energy needs.",
+          "Step 2: Custom Panel Upgrade Plan tailored to your home and budget.",
+          "Step 3: Professional Installation by licensed and experienced electricians.",
+          "Step 4: Thorough Testing and Inspection to ensure safety and code compliance."
+        ],
+        "benefits": [
+          "Increased electrical capacity",
+          "Enhanced safety and reliability",
+          "Accommodation for new appliances and devices",
+          "Improved home value"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I need an electrical panel upgrade?",
+            "answer": "Common signs include flickering lights, frequently tripped breakers, and the inability to run multiple appliances simultaneously. If you're adding new appliances or renovating your home, an upgrade is likely necessary."
+          },
+          {
+            "question": "How long does an electrical panel upgrade take?",
+            "answer": "Most panel upgrades can be completed in one day, minimizing disruption to your home. We'll provide a more accurate timeline after assessing your specific needs."
+          },
+          {
+            "question": "Is a permit required for an electrical panel upgrade?",
+            "answer": "Yes, in Austin, a permit is required for all electrical panel upgrades. We handle all necessary permitting to ensure compliance with local regulations."
+          }
+        ]
+      },
+      {
+        "slug": "whole-house-rewiring",
+        "name": "Whole-House Rewiring",
+        "shortDescription": "Protect your family and modernize your home with comprehensive rewiring.",
+        "description": "Older homes in neighborhoods like Hyde Park and Travis Heights often have outdated wiring that can be a safety hazard. If your home was built before the 1970s, it may have aluminum wiring or knob-and-tube wiring, which are known fire hazards. Whole-house rewiring involves replacing all of the electrical wiring in your home with modern, code-compliant wiring. This improves safety, reduces the risk of electrical fires, and increases the value of your home. We'll carefully remove the old wiring, install new wiring, and ensure all connections are secure and up to code. We understand the disruption this can cause, so we work efficiently and respectfully to minimize the impact on your daily life.",
+        "process": [
+          "Step 1: Detailed Inspection of your existing wiring system.",
+          "Step 2: Safe Removal of outdated or hazardous wiring.",
+          "Step 3: Installation of new, code-compliant wiring throughout your home.",
+          "Step 4: Testing and Certification to ensure safety and functionality."
+        ],
+        "benefits": [
+          "Improved safety and reduced fire risk",
+          "Increased home value",
+          "Enhanced electrical capacity",
+          "Elimination of outdated wiring hazards"
+        ],
+        "faq": [
+          {
+            "question": "How long does whole-house rewiring take?",
+            "answer": "The duration depends on the size and complexity of your home, but typically takes 3-7 days. We'll provide a detailed timeline after assessing your property."
+          },
+          {
+            "question": "Do I need to move out during rewiring?",
+            "answer": "While it's possible to stay in your home during rewiring, it can be disruptive. We recommend considering alternative accommodations for your comfort and safety."
+          },
+          {
+            "question": "Will rewiring damage my walls?",
+            "answer": "We take precautions to minimize damage during rewiring. We'll patch any holes or openings created during the process, but painting may be required."
+          }
+        ]
+      },
+      {
+        "slug": "lighting-installation",
+        "name": "Lighting Installation",
+        "shortDescription": "Brighten your home with expert lighting solutions.",
+        "description": "From recessed lighting in kitchens to landscape lighting in your backyard oasis, we offer a full range of lighting installation services. Austin's diverse architecture demands versatile lighting solutions. Whether you are looking to upgrade existing fixtures or install new lighting systems, our electricians can help. We handle everything from design to installation, ensuring your lighting is both functional and aesthetically pleasing. Enjoy the long summer evenings with custom outdoor lighting that will enhance your backyard experience. We also specialize in energy-efficient LED lighting, helping you save money on your electricity bills while reducing your carbon footprint.",
+        "process": [
+          "Step 1: Consultation, design, and planning.",
+          "Step 2: Secure all required permits.",
+          "Step 3: Professional installation by our licensed team.",
+          "Step 4: Testing and quality assurance check."
+        ],
+        "benefits": [
+          "Improved aesthetics and ambiance",
+          "Increased energy efficiency",
+          "Enhanced security",
+          "Customized lighting solutions"
+        ],
+        "faq": [
+          {
+            "question": "What type of lighting is most energy-efficient?",
+            "answer": "LED lighting is the most energy-efficient option, using up to 75% less energy than traditional incandescent bulbs. They also last much longer, saving you money on replacement costs."
+          },
+          {
+            "question": "Can you help me design my lighting layout?",
+            "answer": "Yes, we offer design consultations to help you create a lighting plan that meets your needs and complements your home's style. We can help with everything from fixture selection to placement."
+          },
+          {
+            "question": "Do I need a permit for lighting installation?",
+            "answer": "Permits are typically required for new circuit installations or modifications to existing electrical systems. We will handle all necessary permitting for your project."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-repairs",
+        "name": "Electrical Repairs",
+        "shortDescription": "Fast, reliable repairs to keep your home powered safely.",
+        "description": "From flickering lights to faulty outlets, electrical problems can be frustrating and potentially dangerous. We offer prompt and reliable electrical repair services to homes throughout Austin. Our experienced electricians can diagnose and repair any electrical issue, big or small. We understand the urgency of electrical problems, especially during the summer months when power outages are more common. We arrive on time, diagnose the issue quickly, and provide a cost-effective solution. We use only quality parts and materials to ensure lasting repairs.",
+        "process": [
+          "Step 1: Prompt arrival and thorough diagnosis.",
+          "Step 2: Clear explanation of the problem and repair options.",
+          "Step 3: Efficient and reliable repair work.",
+          "Step 4: Testing to ensure the repair is successful."
+        ],
+        "benefits": [
+          "Safe and reliable electrical system",
+          "Reduced risk of electrical fires",
+          "Prompt and professional service",
+          "Peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you respond to an electrical repair request?",
+            "answer": "We offer 24/7 emergency service and strive to respond to all repair requests as quickly as possible. Our average response time is within a few hours."
+          },
+          {
+            "question": "What are some common signs of an electrical problem?",
+            "answer": "Common signs include flickering lights, tripped breakers, burning smells, and outlets that don't work. If you notice any of these signs, it's important to call a qualified electrician immediately."
+          },
+          {
+            "question": "How much will the repair cost?",
+            "answer": "The cost of the repair will depend on the nature of the problem. We provide upfront pricing before any work begins."
+          }
+        ]
+      },
+      {
+        "slug": "outlet-and-switch-installation",
+        "name": "Outlet & Switch Installation",
+        "shortDescription": "Upgrade or add outlets and switches for convenience and safety.",
+        "description": "Need more outlets in your home office? Want to upgrade to smart switches? We provide professional outlet and switch installation services throughout Austin. Whether you're renovating your home, adding new appliances, or simply need more outlets, we can help. We install standard outlets, GFCI outlets (for bathrooms and kitchens), USB outlets, and smart switches. We ensure all installations are code-compliant and safe. With the rise of remote work and smart home technology in Austin's diverse neighborhoods, having enough outlets and modern switches is more important than ever. We handle everything from running new circuits to replacing old, worn-out outlets.",
+        "process": [
+          "Step 1: Assess your needs and recommend the best solutions.",
+          "Step 2: Obtain necessary permits.",
+          "Step 3: Install new outlets and switches.",
+          "Step 4: Test and verify proper operation."
+        ],
+        "benefits": [
+          "Increased convenience and functionality",
+          "Enhanced safety",
+          "Modernized home",
+          "Improved resale value"
+        ],
+        "faq": [
+          {
+            "question": "What is a GFCI outlet?",
+            "answer": "A GFCI (Ground Fault Circuit Interrupter) outlet is designed to protect against electrical shock. It's required in bathrooms, kitchens, and other areas where water is present."
+          },
+          {
+            "question": "Can you install USB outlets?",
+            "answer": "Yes, we can install USB outlets that allow you to charge your devices directly from the wall."
+          },
+          {
+            "question": "How much does it cost to install an outlet?",
+            "answer": "The cost of outlet installation depends on the complexity of the job. We provide upfront pricing before any work begins."
+          }
+        ]
+      },
+      {
+        "slug": "ceiling-fan-installation",
+        "name": "Ceiling Fan Installation",
+        "shortDescription": "Stay cool and comfortable with professional ceiling fan installation.",
+        "description": "Beat the Austin heat with a new ceiling fan! We offer professional ceiling fan installation services for homes and businesses. Ceiling fans can help you save money on your energy bills by circulating air and reducing the need for air conditioning. We install all types of ceiling fans, including those with lights and remote controls. Our experienced electricians ensure the fan is properly installed and balanced for optimal performance. We understand the importance of staying cool during the hot Texas summers, and we're here to help you stay comfortable all year round. With our expertise, you can enjoy a refreshing breeze without breaking the bank.",
+        "process": [
+          "Step 1: Determine the best location for your ceiling fan.",
+          "Step 2: Ensure proper wiring and support.",
+          "Step 3: Install the fan and balance it for smooth operation.",
+          "Step 4: Test and verify proper operation."
+        ],
+        "benefits": [
+          "Improved air circulation",
+          "Reduced energy costs",
+          "Enhanced comfort",
+          "Stylish addition to your home"
+        ],
+        "faq": [
+          {
+            "question": "Can I install a ceiling fan myself?",
+            "answer": "While it's possible to install a ceiling fan yourself, it's best to hire a professional electrician to ensure it's done safely and correctly. Improper installation can lead to electrical hazards and damage to your home."
+          },
+          {
+            "question": "Do I need a special electrical box for a ceiling fan?",
+            "answer": "Yes, you need a ceiling fan-rated electrical box that is designed to support the weight of the fan."
+          },
+          {
+            "question": "How much does it cost to install a ceiling fan?",
+            "answer": "The cost of ceiling fan installation depends on the complexity of the job. We provide upfront pricing before any work begins."
+          }
+        ]
+      },
+      {
+        "slug": "surge-protection",
+        "name": "Surge Protection",
+        "shortDescription": "Protect your electronics from power surges with whole-house surge protection.",
+        "description": "Austin's frequent thunderstorms can cause power surges that can damage your valuable electronics. Protect your home with our whole-house surge protection services. We install surge protection devices at your electrical panel to protect all of your appliances and electronics from power surges. This is especially important for sensitive electronics like computers, TVs, and refrigerators. A whole-house surge protector is an investment that can save you thousands of dollars in the long run by preventing damage from power surges. Living in flash flood alley means unpredictable weather, so protect your home from the unexpected.",
+        "process": [
+          "Step 1: Assess your electrical system and surge protection needs.",
+          "Step 2: Install a whole-house surge protector at your electrical panel.",
+          "Step 3: Test and verify proper operation.",
+          "Step 4: Provide ongoing maintenance and support."
+        ],
+        "benefits": [
+          "Protection for all your electronics",
+          "Reduced risk of damage from power surges",
+          "Peace of mind",
+          "Cost savings in the long run"
+        ],
+        "faq": [
+          {
+            "question": "What is a power surge?",
+            "answer": "A power surge is a sudden increase in voltage that can damage electronic devices. It can be caused by lightning, power outages, or problems with the electrical grid."
+          },
+          {
+            "question": "How does a whole-house surge protector work?",
+            "answer": "A whole-house surge protector diverts excess voltage away from your electrical system, protecting your appliances and electronics from damage."
+          },
+          {
+            "question": "Is a surge protector the same as a power strip?",
+            "answer": "No, a surge protector is designed to protect against power surges, while a power strip simply provides multiple outlets. A power strip may offer some surge protection, but it's not as effective as a dedicated surge protector."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Round Rock",
+        "slug": "round-rock-tx",
+        "state": "TX",
+        "content": "ATX Electrical Services is proud to offer comprehensive electrical services to the growing community of Round Rock, Texas. Known for its family-friendly atmosphere and numerous 1990s and 2000s era subdivisions, Round Rock residents rely on safe and efficient electrical systems to power their homes and businesses. We understand the specific electrical needs of these homes, from upgrading outdated panels to installing energy-efficient lighting solutions.\n\nWith Round Rock summers often exceeding 100 degrees Fahrenheit, a properly functioning air conditioning system is crucial. ATX Electrical Services provides expert AC electrical support, including circuit upgrades and surge protection, ensuring your family stays comfortable and safe throughout the hottest months. We are committed to providing reliable and affordable electrical services to the Round Rock community.",
+        "localContext": "Round Rock, TX is a large suburban city known for its master-planned communities and excellent schools.",
+        "nearbyAreas": [
+          "Austin",
+          "Pflugerville",
+          "Cedar Park"
+        ]
+      },
+      {
+        "city": "Cedar Park",
+        "slug": "cedar-park-tx",
+        "state": "TX",
+        "content": "ATX Electrical Services is your trusted partner for all your electrical needs in Cedar Park, Texas. As a rapidly growing suburban community with many homes built in the 2000s, Cedar Park residents require modern and reliable electrical systems to support their lifestyles. We specialize in providing a wide range of services, from new construction wiring to electrical repairs and upgrades.\n\nGiven the intense heat of Texas summers, ensuring your home's electrical system can handle the load of air conditioning and other appliances is essential. ATX Electrical Services offers comprehensive electrical inspections and upgrades to keep your Cedar Park home safe and comfortable. We are dedicated to providing prompt and professional service to our customers in Cedar Park.",
+        "localContext": "Cedar Park is a thriving suburban city known for its excellent schools and family-friendly environment.",
+        "nearbyAreas": [
+          "Leander",
+          "Austin",
+          "Round Rock"
+        ]
+      },
+      {
+        "city": "Georgetown",
+        "slug": "georgetown-tx",
+        "state": "TX",
+        "content": "ATX Electrical Services is pleased to serve the historic and charming city of Georgetown, Texas. With its beautiful Victorian downtown homes and growing population, Georgetown presents a unique blend of old and new electrical needs. We are experienced in working with older homes, ensuring their electrical systems are safe and up to code while preserving their historic character.\n\nGeorgetown's hot summers necessitate reliable air conditioning systems. ATX Electrical Services provides expert electrical services for AC units, ensuring they operate efficiently and safely. We are committed to providing exceptional electrical services to the Georgetown community, whether you live in a historic home or a new development.",
+        "localContext": "Georgetown is known for its historic downtown square and beautiful Victorian architecture.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Leander",
+          "Liberty Hill"
+        ]
+      },
+      {
+        "city": "Pflugerville",
+        "slug": "pflugerville-tx",
+        "state": "TX",
+        "content": "ATX Electrical Services is proud to offer electrical services to the growing and diverse community of Pflugerville, Texas. Known for its affordable newer construction and family-friendly atmosphere, Pflugerville residents rely on safe and efficient electrical systems. We provide a full range of electrical services, from new home wiring to electrical repairs and upgrades.\n\nThe Texas heat can put a strain on your electrical system, especially during the summer months. ATX Electrical Services provides expert electrical services for air conditioning systems, ensuring they are running efficiently and safely. We are dedicated to providing reliable and affordable electrical services to the Pflugerville community.",
+        "localContext": "Pflugerville is a rapidly growing city known for its affordable housing and community events.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Austin",
+          "Hutto"
+        ]
+      },
+      {
+        "city": "Austin",
+        "slug": "austin-tx",
+        "state": "TX",
+        "content": "ATX Electrical Services is proud to provide top-quality electrical services to the vibrant and ever-growing city of Austin, Texas. From the bustling downtown core to the quiet residential neighborhoods, Austin residents and businesses rely on safe and efficient electrical systems. We specialize in a wide range of services, including new construction, remodels, repairs, and upgrades.\n\nAustin's unique blend of historic homes and modern developments requires a diverse skillset. ATX Electrical Services has the expertise to handle any electrical project, big or small. We are committed to providing exceptional customer service and ensuring your satisfaction.",
+        "localContext": "Austin is the capital of Texas, known for its live music, tech industry, and diverse culture.",
+        "nearbyAreas": [
+          "Pflugerville",
+          "Round Rock",
+          "West Lake Hills"
+        ]
+      },
+      {
+        "city": "Leander",
+        "slug": "leander-tx",
+        "state": "TX",
+        "content": "ATX Electrical Services is dedicated to serving the rapidly growing community of Leander, Texas, with reliable and professional electrical services. Leander's growth means many new homes and businesses, each requiring expert electrical work. We offer comprehensive services, from new construction wiring to electrical repairs and upgrades.\n\nTexas summers demand efficient and reliable air conditioning. ATX Electrical Services provides expert AC electrical support, ensuring your home stays cool and comfortable. We are committed to providing top-notch electrical solutions to the Leander community.",
+        "localContext": "Leander is a fast-growing suburb of Austin, known for its family-friendly environment and proximity to the Texas Hill Country.",
+        "nearbyAreas": [
+          "Cedar Park",
+          "Georgetown",
+          "Liberty Hill"
+        ]
+      },
+      {
+        "city": "Hutto",
+        "slug": "hutto-tx",
+        "state": "TX",
+        "content": "ATX Electrical Services is pleased to offer comprehensive electrical services to the community of Hutto, Texas. Known for its small-town charm and growing population, Hutto residents rely on safe and reliable electrical systems for their homes and businesses. We provide a full spectrum of services, from new construction wiring to electrical repairs and maintenance.\n\nWith Texas summers bringing intense heat, reliable air conditioning is essential. ATX Electrical Services offers expert electrical services for AC units, ensuring they operate efficiently and safely. We are committed to providing dependable and affordable electrical services to the Hutto community.",
+        "localContext": "Hutto is a growing city with a small-town atmosphere known for its hippopotamus mascot.",
+        "nearbyAreas": [
+          "Pflugerville",
+          "Taylor",
+          "Round Rock"
+        ]
+      },
+      {
+        "city": "Liberty Hill",
+        "slug": "liberty-hill-tx",
+        "state": "TX",
+        "content": "ATX Electrical Services is proud to provide electrical services to the growing community of Liberty Hill, Texas. Known for its rural charm and increasing development, Liberty Hill residents and businesses rely on reliable electrical systems. We specialize in a range of services, from new construction wiring to electrical repairs and upgrades.\n\nLiberty Hill's location means exposure to Texas's harsh weather. ATX Electrical Services offers surge protection and other services to safeguard your electrical system. We are committed to providing professional and dependable electrical services to the Liberty Hill community.",
+        "localContext": "Liberty Hill is a rapidly growing city known for its rural character and scenic views.",
+        "nearbyAreas": [
+          "Georgetown",
+          "Leander",
+          "Burnet"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Electrical Panel Upgrade",
+        "text": "ATX Electrical Services upgraded our electrical panel last week, and we couldn't be happier. Jake was professional, knowledgeable, and explained everything clearly. The job was done quickly and efficiently, and we haven't had any problems since. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Lighting Installation",
+        "text": "The team installed recessed lighting in our kitchen. The work was good, and the price was fair. There was a slight delay due to a parts shortage, but they communicated well and kept us informed. Would use them again.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Electrical Repairs",
+        "text": "I had a major electrical issue in my home, and ATX Electrical Services responded quickly and resolved the problem efficiently. The electrician was courteous and professional, and the price was reasonable. I'm grateful for their prompt and reliable service.",
+        "date": "2024-08-05"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Outlet Installation",
+        "text": "Needed some extra outlets installed in my home office. ATX Electrical did a great job, very clean and professional. They were on time and the price was exactly what they quoted. Very pleased.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Emily R.",
+        "rating": 4,
+        "service": "Ceiling Fan Installation",
+        "text": "Had a ceiling fan installed in my living room. The installation was smooth and the fan looks great. The electrician was friendly and answered all my questions. I would definitely recommend them.",
+        "date": "2024-09-28"
+      },
+      {
+        "name": "Robert S.",
+        "rating": 5,
+        "service": "Whole-House Rewiring",
+        "text": "ATX Electrical Services completely rewired our 1950s bungalow in Bouldin Creek. They were professional, efficient, and respectful of our home. The job was done to code, and we feel much safer now. Highly recommend!",
+        "date": "2024-06-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Austin Electrician | ATX Electrical Services",
+        "description": "Licensed electricians serving Austin, TX. Panel upgrades, repairs, lighting, wiring. Call for a free estimate!"
+      },
+      "about": {
+        "title": "About ATX Electrical Services | Austin, TX",
+        "description": "Learn about ATX Electrical Services, your trusted local electrician in Austin. Quality workmanship and customer care."
+      },
+      "services": {
+        "title": "Electrical Services | Austin, TX | ATX Electrical",
+        "description": "Comprehensive electrical services in Austin, TX. Panel upgrades, wiring, lighting, repairs. Contact us today!"
+      },
+      "contact": {
+        "title": "Contact ATX Electrical Services | Austin, TX",
+        "description": "Contact ATX Electrical Services for all your electrical needs in Austin, TX. Get a free estimate today!"
+      },
+      "reviews": {
+        "title": "ATX Electrical Services Reviews | Austin, TX",
+        "description": "Read reviews from satisfied customers of ATX Electrical Services in Austin, TX. Quality electrical work you can trust."
+      },
+      "service-areas": {
+        "title": "Service Areas | ATX Electrical Services",
+        "description": "ATX Electrical Services provides electrical services throughout the Austin metro area."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "electrical-panel-upgrades": "/images/service-electrical-panel-upgrades.webp",
+      "whole-house-rewiring": "/images/service-whole-house-rewiring.webp",
+      "lighting-installation": "/images/service-lighting-installation.webp",
+      "electrical-repairs": "/images/service-electrical-repairs.webp",
+      "outlet-and-switch-installation": "/images/service-outlet-and-switch-installation.webp",
+      "ceiling-fan-installation": "/images/service-ceiling-fan-installation.webp",
+      "surge-protection": "/images/service-surge-protection.webp"
+    },
+    "servicesResponsive": {
+      "electrical-panel-upgrades": {
+        "src": "/images/service-electrical-panel-upgrades.webp",
+        "srcset": "/images/service-electrical-panel-upgrades-400w.webp 400w, /images/service-electrical-panel-upgrades-800w.webp 800w, /images/service-electrical-panel-upgrades-1200w.webp 1200w, /images/service-electrical-panel-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "whole-house-rewiring": {
+        "src": "/images/service-whole-house-rewiring.webp",
+        "srcset": "/images/service-whole-house-rewiring-400w.webp 400w, /images/service-whole-house-rewiring-800w.webp 800w, /images/service-whole-house-rewiring-1200w.webp 1200w, /images/service-whole-house-rewiring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "lighting-installation": {
+        "src": "/images/service-lighting-installation.webp",
+        "srcset": "/images/service-lighting-installation-400w.webp 400w, /images/service-lighting-installation-800w.webp 800w, /images/service-lighting-installation-1200w.webp 1200w, /images/service-lighting-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-repairs": {
+        "src": "/images/service-electrical-repairs.webp",
+        "srcset": "/images/service-electrical-repairs-400w.webp 400w, /images/service-electrical-repairs-800w.webp 800w, /images/service-electrical-repairs-1200w.webp 1200w, /images/service-electrical-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "outlet-and-switch-installation": {
+        "src": "/images/service-outlet-and-switch-installation.webp",
+        "srcset": "/images/service-outlet-and-switch-installation-400w.webp 400w, /images/service-outlet-and-switch-installation-800w.webp 800w, /images/service-outlet-and-switch-installation-1200w.webp 1200w, /images/service-outlet-and-switch-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ceiling-fan-installation": {
+        "src": "/images/service-ceiling-fan-installation.webp",
+        "srcset": "/images/service-ceiling-fan-installation-400w.webp 400w, /images/service-ceiling-fan-installation-800w.webp 800w, /images/service-ceiling-fan-installation-1200w.webp 1200w, /images/service-ceiling-fan-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "surge-protection": {
+        "src": "/images/service-surge-protection.webp",
+        "srcset": "/images/service-surge-protection-400w.webp 400w, /images/service-surge-protection-800w.webp 800w, /images/service-surge-protection-1200w.webp 1200w, /images/service-surge-protection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
